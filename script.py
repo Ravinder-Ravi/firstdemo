@@ -4,7 +4,7 @@ print (type(img))
 print (img)
 print(img.shape)
 print(img.ndim)
-print ("Hello")
+
 
 resized_image=cv2.resize(img, (1000,500))
 cv2.imshow("Galaxy" ,resized_image)
